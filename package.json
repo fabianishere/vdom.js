@@ -1,0 +1,29 @@
+{
+  "name": "vdom.js",
+  "description": "Very basic virtual dom in ES6",
+  "version": "0.1.0",
+  "author": "Fabian Mastenbroek <mail.fabianm@gmail.com>",
+  "homepage": "https://github.com/fabianishere/vdom.js",
+  "main": "build",
+  "bugs": "https://github.com/fabianishere/vdom.js/issues",
+  "maintainers": [{
+    "name": "Fabian Mastenbroek",
+    "email": "mail.fabianm@gmail.com",
+    "web": "https://github.com/fabianishere"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabianishere/slf4n.git"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "build": "babel src -d build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.20.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+    "babel-preset-es2017": "^6.16.0"
+  }
+}
