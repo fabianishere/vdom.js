@@ -180,7 +180,7 @@ function setAttribute(dom, name, value, prev) {
 		// ignore
 	} else if (name === 'class') {
 		dom.className = value || '';
-	} else if (name==='style') {
+	} else if (name === 'style') {
 		if (!value || typeof value === 'string' || typeof prev === 'string') {
 			dom.style.cssText = value || '';
 		} else if (value && typeof value === 'object') {
