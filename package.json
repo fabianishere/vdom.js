@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "author": "Fabian Mastenbroek <mail.fabianm@gmail.com>",
   "homepage": "https://github.com/fabianishere/vdom.js",
-  "main": "build",
+  "main": "index.js",
   "bugs": "https://github.com/fabianishere/vdom.js/issues",
   "maintainers": [{
     "name": "Fabian Mastenbroek",
@@ -18,7 +18,8 @@
   "license": "MIT",
   "dependencies": {},
   "scripts": {
-    "build": "babel src -d build"
+    "build": "babel src -d build",
+	"prepublish": "npm run build"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",

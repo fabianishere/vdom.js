@@ -10,6 +10,4 @@
  * copies of the Software, and to permit persons to whom the Software is
  * furnished to do so, subject to the following conditions:
  */
-
-import * as vdom from './vdom';
-export default vdom;
+module.exports = require('./build/string');

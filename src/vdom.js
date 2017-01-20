@@ -11,7 +11,7 @@
  * furnished to do so, subject to the following conditions:
  */
 
-import { diff } from '../vdom/dom';
+import { diff } from './dom';
 
 /*
  * A basic lightweight virtual DOM library, written in ES6, with no regard 
